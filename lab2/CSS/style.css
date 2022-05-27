@@ -1,0 +1,23 @@
+/* the head line font*/
+body{
+    margin: 0.5;
+    padding: 0;
+    background-color: beige;
+    font-size: large;
+
+}
+#dani{
+    display: flex;
+}
+
+h1{
+    color:blue;
+    font-family: cursive;
+}
+h3{
+    color: brown;
+    font-family:cursive;
+}
+em{
+    color: darkmagenta;
+}
