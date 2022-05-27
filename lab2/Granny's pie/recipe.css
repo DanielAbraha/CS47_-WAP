@@ -13,3 +13,12 @@ h1{
     background-color: rgb(236, 236, 61);
 
 }
+.validator{
+    float:right;
+    display:flex;
+    clear:right;
+}
+footer{
+    float:right;
+    clear:right;
+}
