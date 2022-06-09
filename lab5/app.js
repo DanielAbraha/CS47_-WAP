@@ -74,23 +74,24 @@ function findLongestWords(word) {
     }
     return longest;
 }
-console.log(findLongestWords(["brukie","dani","juddy"]));
+console.log(findLongestWords(  [ "brukie","dani","juddy"]));
 
 // problem 7
 /**7.	Write a function filterLongWords() that takes an
  *  array of words and an integer i and returns a new array 
  * containing only those words that were longer than i characters. */
 function filterLongWords(arr,num) {
-    let filt=[]
-  for (let i = 0; i <arr.length; i++) {
-        if(arr[i].length>num)
-            filt.push(arr[i]);
+//     let filt=[]
+//   for (let i = 0; i <arr.length; i++) {
+//         if(arr[i].length>num)
+//             filt.push(arr[i]);
         
-          }
+//           }
       
-  return filt;
+//   return filt;
+return arr.filter(e=> e.length>num);
 }
-console.log(filterLongWords(["dani","fre","siku"],2));
+console.log(filterLongWords(["dani","fre","siku"],3));
 
 //problem 8 
 /* 8.	Write a function named, computeSumOfSquares, that takes as input, an array of numbers and calculates and returns the sum of the squares of each number in the input array. E.g. computeSumOfSquares([1,2,3]) should be computed as 12 + 22 +32 = 14. Note: Write your Javascript code without using Imperative programming. i.e. Do NOT use any explicit looping construct;
@@ -179,6 +180,6 @@ prints-out: "0, 1, 1, 2, 3, 5, 8, 13, 21, 34", as output).*/
             z = sumOfPrevTwo;
     }
   }
-  console.log(printfibo(1,2,3,4));
+  console.log(printfibo(1,2,3));
 
 
