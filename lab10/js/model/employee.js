@@ -1,3 +1,7 @@
+/**
+ * employee.js
+ */
+   "use strict";
 class Employee extends Person{
     constructor(name,dateOfBirth,salary,hiredate){
         super(name,dateOfBirth);

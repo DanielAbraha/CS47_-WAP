@@ -1,6 +1,7 @@
 /**
  * person.js
  */
+"use strict"
  class Person{
     constructor(name,dateOfBirth){
         this.name = name;
