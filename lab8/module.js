@@ -6,11 +6,16 @@
    // 6
 const count = function(){
     let counter = 0; 
+   
     function add(){
-    counter+=1;
+    
+    counter++;
+   
     }
     function reset(){
     counter = 0;
+   
+
     }
     return{
     add: function(){
@@ -24,6 +29,7 @@ const count = function(){
     }
     }
     }
+    
      let counts = count();
       counts.add();
       counts.add();
@@ -62,6 +68,7 @@ const Employee = (function(){
     let name;
     let age;
     let salary;
+    
     
     
     const getAge = function(){

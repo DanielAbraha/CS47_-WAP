@@ -3,24 +3,26 @@
  */
 "use strict"
  class Person{
+    name;
+    dateOfBirth;
     constructor(name,dateOfBirth){
         this.name = name;
         this.dateOfBirth = dateOfBirth;
     }
     getName(){
-        return this._name;
+        return this.name;
     }
     setName(newname){
-        this._name=newname;
+        this.name=newname;
     }
     getDateOfBirth(){
-        return this._dateOfBirth;
+        return this.dateOfBirth;
     }
     setDateOfBirth(dateOfBirth){
-        this._dateOfBirth = dateOfBirth;
-    }
+        this.dateOfBirth = dateOfBirth;
+    };
     toString(){
         return `Name:${this.name},DateOfBirth:${this.dateOfBirth}`
-    }
+    };
 }
 export default Person

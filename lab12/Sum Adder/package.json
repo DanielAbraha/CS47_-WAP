@@ -1,0 +1,13 @@
+{
+  "name": "sum-adder",
+  "version": "1.0.0",
+  "description": " Sum Adder",
+  "main": "addmod.js",
+  "scripts": {
+    "serve": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "danny",
+  "license": "ISC"
+}

@@ -2,9 +2,11 @@
  * employee.js
  */
    "use strict";
-class Employee extends Person{
+class Employee{ //extends Person{
+    salary;
+    hireDate;
     constructor(name,dateOfBirth,salary,hiredate){
-        super(name,dateOfBirth);
+       // super(name,dateOfBirth);
         this.salary=salary;
         this.hireDate=hiredate;
 

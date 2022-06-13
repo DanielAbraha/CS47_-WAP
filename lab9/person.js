@@ -3,7 +3,9 @@
  */
 "use strict"
 // 1
+
 const Person ={
+    
     name :"",
     dateOfBirth:"",
     getName: function(){
@@ -34,15 +36,15 @@ console.log(`The person's name is:${p1.getName()} \n ${p1.getName()} was born on
     console.log(emp);
 
     // 3 constructor-Function
-
+  
     function person(newName,newDOB){
         this.name = newName;
         this.dateOfBirth = newDOB;
     }
-    person.prototype.getName = function(){
+    person.getName = function(){
         return this.name;
     };
-    person.prototype.setName = function(newName){
+    person.setName = function(newName){
         this.name = newName;
     };
     person.prototype.toString = function(){

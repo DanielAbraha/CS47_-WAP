@@ -16,7 +16,7 @@ window.onload = (function(){
             const pOut=$("#radioIsOutPatientNo");
 
             // adding to a table
-            const table =`<tr>
+            const tab =`<tr>
                     <td> ${pID.val()}</td>
                     <td> ${fName.val()}</td>
                     <td> ${mName.val()}</td>
@@ -26,7 +26,7 @@ window.onload = (function(){
                     <td class="out">${pIn.is(':checked')?pIn.val():pOut.val()}</td>
                
             </tr>`
-            $('#tbodyPatientsList').append(table);
+            $('#tbodyPatientsList').append(tab);
 
         }),
         $('#chkElderlyPatients').on('change',function(){
